@@ -27,6 +27,6 @@ export class HttpErrorFilter implements ExceptionFilter {
       'ExceptionFilter',
     );
 
-    response.status(404).json(errorResponse);
+    response.status(status).json(errorResponse);
   }
 }
