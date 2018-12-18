@@ -13,7 +13,7 @@ import { IdeaService } from './idea.service';
 import { IdeaDTO } from './idea.dto';
 import { ValidationPipe } from 'src/shared/validation.pipe';
 
-@Controller('idea')
+@Controller('api/idea')
 export class IdeaController {
   private logger = new Logger('IdeaController');
   constructor(private ideaService: IdeaService) {}
